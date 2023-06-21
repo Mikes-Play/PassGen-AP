@@ -35,33 +35,32 @@ def pswd_length():
     length = int(input("Cual es el largo deseado de su contraseña?: "))
     return length
     print(f"Su longitud dde contraseña deseada es: {length}")
-#!HASTA ACA FUNCIONA
 
 
 def conv():
     if (selected_char_type[0]=="1"):
         selected_char_type[0]=Mayusculas
 
-    elif(selected_char_type=="2"):
+    elif(selected_char_type[0]=="2"):
         selected_char_type[0]=Minusculas
 
-    elif(selected_char_type=="3"):
+    elif(selected_char_type[0]=="3"):
         selected_char_type[0]=Numeros
 
-    elif(selected_char_type=="4"):
+    elif(selected_char_type[0]=="4"):
         selected_char_type[0]=Caracteres_Especiales
     
 
     if (selected_char_type[1]=="1"):
         selected_char_type[1]=Mayusculas
 
-    elif(selected_char_type=="2"):
+    elif(selected_char_type[1]=="2"):
         selected_char_type[1]=Minusculas
 
-    elif(selected_char_type=="3"):
+    elif(selected_char_type[1]=="3"):
         selected_char_type[1]=Numeros
 
-    elif(selected_char_type=="4"):
+    elif(selected_char_type[1]=="4"):
         selected_char_type[1]=Caracteres_Especiales
 
 
