@@ -1,19 +1,14 @@
 import string
 import secrets
 
-#TODO Crear menu de seleccion de:
-#* Alfabetos a utilizar
-#* Longitud de Contraseña
 
 
-#TODO Reordenar y estilizar alphabet y strings
 Mayusculas = string.ascii_uppercase
 Minusculas = string.ascii_lowercase
 Numeros = string.digits
 Caracteres_Especiales = string.punctuation
 
 
-#TODO Reemplazar por "inputs"
 def sel_char_type():
     char_type = {"1":"Mayusculas", "2":"Minusculas", "3":"Numeros", "4":"Caracteres_Especiales"}
     for x, y in char_type.items():
